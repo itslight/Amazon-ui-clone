@@ -1,0 +1,13 @@
+.Ribbon-btn{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    padding: 5px 10px;
+    border: 1px solid rgb(48, 46, 46);
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 13px;
+}
+.Ribbon-btn:hover{
+    border: 1px solid white;
+}

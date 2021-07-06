@@ -1,0 +1,73 @@
+.scroll_block{
+    /* padding-top: 40px; */
+    position: absolute;
+    display: grid;
+    padding: 0.5rem;
+    margin-top: -870px;
+    width: 385px;
+    height:90vh;
+    background: white;
+    overflow-y: scroll;
+    z-index: 999px;
+}
+.bar-text{
+    font-size:20px;
+    font-weight: 700;
+    margin-top:-20px;
+}
+.scroll-bar{
+    position: fixed !important;
+    margin-top: 10px;
+    max-width:390px;
+    margin-right: 1040px;
+    background-color: black !important;
+    height: 45px;
+}
+
+.scroll_item{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    padding-top: 18px;
+    margin-left: 30px;
+}
+
+.scroll_item{
+    font-size: 16px;
+}
+.scroll_item:hover{
+    background-color: rgb(202, 201, 199);
+    color: black;
+}
+
+.head-scroll_item{
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: 650;
+    cursor: auto;
+}
+.head-scroll_item:hover{
+    color: black;
+}
+
+.scroll_close{
+    position: absolute;
+    width: 70px;
+    height: 35px;
+    margin-left: 370px;
+    margin-top: -20px;
+    background-color: transparent;
+}
+.hor-line{
+    width:100%;
+    height: 0.5px;
+    background-color: rgb(229, 226, 226);
+    margin-top: 20px;
+}
+@media (max-width: 800px){
+    #arp{
+        display: none;
+    }
+}

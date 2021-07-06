@@ -1,0 +1,64 @@
+.foot2-col{
+    margin-bottom: 20px;
+    position:relative;
+    margin-left: 100px;
+    display: flex;
+    margin-top: 0px;
+    flex-direction: column;
+}
+.foot2-col> text{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 9px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.foot2-col:link{
+    text-decoration: none;
+}
+.foot2-col> text:hover{
+    text-decoration: underline;
+}
+.foot2-heading{
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.foot2-heading:hover{
+    text-decoration: none !important;
+    cursor:auto;
+}
+.foot3-text> text{
+    font-size: 11.5px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.foot3-text> text:hover{
+    text-decoration: underline;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+}
+.container3{
+    text-align: center;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.footer-button{
+    padding: 3px 5px;
+    background: rgb(31, 29, 29);
+    color: rgb(243, 237, 237);
+    border: 0.1px solid white;
+    border-radius: 3px;
+}
+.f-btn{
+    margin-bottom: 20px;
+}
+
+@media (max-width:1000px)  {
+    #f3{
+        height: 250px;
+        /* background-color: aliceblue; */
+    }
+}
